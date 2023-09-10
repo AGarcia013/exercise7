@@ -1,0 +1,40 @@
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#search {
+    margin-right: 10px;
+
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+
+}
+
+button:hover {
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+/*No he conseguido poner el Disabled en gris, no se me ocurre como hacerlo sin usar clases o ids, como indica el ejercicio.
+ /*Por otro lado, no he conseguido que los elementos, menos el logo, aparezcan en el centro. He intentado usar justify-content pero todo aparece igual
