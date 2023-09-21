@@ -42,11 +42,15 @@ button:hover {
 
 /*.hamburger {
     display: none;
-}
+}*/
 
 @media (max-width: 768px) {
 
-    nav ul,
+    .burguer-icon {
+        display: block;
+    }
+
+    /*nav ul,
     nav #logo,
     nav #search,
     nav button {
@@ -65,23 +69,23 @@ button:hover {
         height: 2px;
         background-color: white;
         margin: 5px 0;
-    }
-}*/
-@media (max-width: 768px) {
-
-    nav ul,
-    nav select,
-    nav input,
-    nav button,
-    .logo {
-        display: none;
-    }
-
-    .burguer-icon {
-        display: block;
-    }
+    }*/
 }
+    @media (max-width: 768px) {
+
+        nav ul,
+        nav select,
+        nav input,
+        nav button,
+        .logo {
+            display: none;
+        }
+
+        .burguer-icon {
+            display: block;
+        }
+    }
 
 
-/*No he conseguido poner el Disabled en gris, no se me ocurre como hacerlo sin usar clases o ids, como indica el ejercicio.
+    /*No he conseguido poner el Disabled en gris, no se me ocurre como hacerlo sin usar clases o ids, como indica el ejercicio.
  Por otro lado, no he conseguido que los elementos, menos el logo, aparezcan en el centro. He intentado usar justify-content pero todo aparece igual*/
